@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
@@ -77,7 +77,7 @@
             <button id="subscribeBtn">✅ اشترك في القناة</button>
             <button id="likeBtn">👍 أعجب بالفيديو</button>
         </div>
-        <button class="lock-btn" id="unlockBtn" onclick="window.location.href='https://www.mediafire.com/file/46lom7nw4afzmfw/Delta-657.677-01.apk/file'">🔓 فتح الرابط</button>
+        <button class="lock-btn" id="unlockBtn" onclick="window.location.href='https://www.mediafire.com/file/q031ugb3mvw4w80/krnl+Blox+Fruit+663.apk/file'">🔓 فتح الرابط</button>
     </div>
 
     <script>
@@ -95,7 +95,7 @@
             this.innerText = "✅ تم الاشتراك";
             this.style.background = "gray";
             this.disabled = true;
-            window.open("https://www.youtube.com/@ClynoMun", "_blank");
+            window.open("https://www.youtube.com/@ClynoMun/channel/YOUR_CHANNEL_ID", "_blank");
             checkUnlock();
         });
 
@@ -104,7 +104,7 @@
             this.innerText = "✅ تم الإعجاب";
             this.style.background = "gray";
             this.disabled = true;
-            window.open("https://youtu.be/XEWInUh_LZk?si=Uz741NVn2YzdIcfZ", "_blank");
+            window.open("https://youtu.be/jloxxqlKDTo?si=ta4bJABARqT631Ei/watch?v=YOUR_VIDEO_ID", "_blank");
             checkUnlock();
         });
     </script>
